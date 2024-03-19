@@ -2,8 +2,8 @@ import streamlit as st
 
 st.write("COVID-19 Impact in El Paso County, TX")
 
-st.radio(
+high = st.radio(
     "Select variant features 👉",
     key="visibility",
-    options=["visible", "hidden", "collapsed"],
+    options=["Highly transmissible", "Immune escaping", "Both"],
 )
