@@ -1,11 +1,9 @@
 import streamlit as st
-number = st.slider("Pick a number", 0, 100)
 
-st.write("You're scheduled for:", number)
+st.write("COVID-19 Impact in El Paso County, TX")
 
-
-st.button("Reset", type="primary")
-if st.button('Say hello'):
-    st.write('Why hello there')
-else:
-    st.write('Goodbye')
+st.radio(
+    "Select variant features 👉",
+    key="visibility",
+    options=["visible", "hidden", "collapsed"],
+)
