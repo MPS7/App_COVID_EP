@@ -34,7 +34,7 @@ st.divider()
 st.button("Reset", type="primary")
 if st.button('Run simulation'):
     with st.spinner('Please wait...'):
-    	time.sleep(5)
+    	time.sleep(10)
     	st.success('Done!')
 
     if (variant == "Escapes immunity easily"):
