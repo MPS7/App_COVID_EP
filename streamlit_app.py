@@ -32,7 +32,7 @@ st.divider()
 
 
 st.button("Reset", type="primary")
-if st.button('Run simulation'):
+if st.button('Run'):
     with st.spinner('Please wait...'):
     	time.sleep(10)
     	st.success('Done!')
