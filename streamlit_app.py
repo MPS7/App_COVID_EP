@@ -19,9 +19,9 @@ with col1:
 
 with col2:
     vacc = st.radio(
-    "Select booster vaccination coverage 👉",
+    "Select booster vaccination 👉",
     key="vacc",
-    options=["no vaccination", "Equal booster vaccination campaign", "Equitable booster vaccination campaign"],
+    options=["No vaccination", "Equal booster vaccination campaign", "Equitable booster vaccination campaign"],
     )
 
 
