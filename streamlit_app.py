@@ -106,7 +106,7 @@ if st.button('Run'):
         st.image("disp_H.png")
 
 else:
-    st.write('No simulation is currently run')
+    st.write('No analysis is currently run')
 
 
 st.divider()
