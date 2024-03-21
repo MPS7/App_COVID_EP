@@ -34,11 +34,11 @@ st.divider()
 st.button("Reset", type="primary")
 if st.button('Run simulation'):
     with st.spinner('Please wait...'):
-    	time.sleep(10)
+    	time.sleep(5)
     	st.success('Done!')
 
     if (variant == "Escapes immunity easily"):
-        if (vacc == "no vaccination"):
+        if (vacc == "No vaccination"):
             sc = "A"
 
         if (vacc == "Equal booster vaccination campaign"):
@@ -48,7 +48,7 @@ if st.button('Run simulation'):
             sc = "D"
 
     if (variant == "Transmit faster and escapes immunity"):
-        if (vacc == "no vaccination"):
+        if (vacc == "No vaccination"):
             sc = "E"
 
         if (vacc == "Equal booster vaccination campaign"):
